@@ -1,0 +1,35 @@
+body{
+    background-image: url(/templates/pics/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    color: orange;
+}
+nav{
+
+    width: 18cm;
+    float: right;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 20px;
+}
+nav a{
+color: white;
+list-style: none;
+margin-left: 62px;
+margin-top: 27px;
+text-decoration: none;
+font-family: Arial;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+}
+nav a:hover{
+    color: orange;
+}
+main{
+    color:white;
+}
