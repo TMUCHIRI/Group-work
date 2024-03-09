@@ -6,6 +6,7 @@ body{
 }
 h1{
     color: orange;
+    text-align: left;
 }
 nav{
 
@@ -32,4 +33,13 @@ nav a:hover{
 }
 main{
     color:white;
+    text-align: center;
+    margin-top: 12%;
+    font-size: large;
+
+   
+}
+footer p{
+    color: darkblue;
+    margin-top: 20%;
 }
