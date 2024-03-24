@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mentor Registration Portal</title>
+  <link rel="stylesheet" href="/templates/css/registermetor.css">
   <script src="/js/registermentor.js"></script>
 </head>
 <body>
   <h1>Mentor Registration</h1>
+  
   <form action="" method="POST" id="formregistration">
     <label for="first_name">First Name:</label>
     <input type="text" id="first_name" name="first_name" required> <br><br>
-
     <label for="last_name">Last Name:</label>
     <input type="text" id="last_name" name="last_name" required><br><br>
 
@@ -24,9 +25,10 @@
     <label for="confirm_password">Confirm Password:</label>
     <input type="password" id="confirm_password" name="confirm_password" required><br><br>
 
-    <button type="submit" onclick="registerMentor()">Register</button>
-  </form><br><br>
-  <button type="button" onclick="homepage()"></button>
+    <button type="submit" onclick="registerMentor()">Register</button><br><br>
+    <button type="button" onclick="homepage()" id="btnp">Return to Homepage</button>
+  </form><br>
+  
 
 
   <p>By registering, you agree to the <a href="#">Terms and Conditions</a>.</p>

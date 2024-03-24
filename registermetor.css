@@ -1,0 +1,38 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+body{
+    background-image: url(/templates/mentor.jpg); 
+    background-size: cover; 
+    background-position: center;
+    height: -10vh;
+    padding-bottom: 20px;
+   
+}
+h1{
+    text-align: left;
+    float: left;
+    color: orange;
+    font-weight: bolder;
+    font-size: 70px;
+}
+form{
+    text-align: right;
+    float: left;
+    margin-top: 10%;
+    color: orange;
+    font-weight: bold;
+
+}
+p{
+    margin-top: 40%;
+}
+button{
+    border-radius: 5px;
+    background-color: orange;
+
+}
+button:hover{
+     background-color: blue;
+}
