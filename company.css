@@ -1,0 +1,77 @@
+body{
+    font-family: Arial;;
+    margin: 100px;
+   border: 20px;
+   background-size: cover;
+   background-color: gainsboro;
+}
+
+h1{
+    font-family: monospace, arial;
+    text-decoration: underline;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 0.95cm;
+    gap: 15px;
+    background-color:ghostwhite;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 15cm;
+    text-align: center;
+    margin-left: 7cm;
+}
+
+h2{
+    font-family: monospace;
+    font-size: large;
+    padding: 10px;
+}
+
+main{
+    margin-left: 60px;
+    font-family: georgia;
+    text-align: center;
+}
+a{
+    width: 4cm;
+    align-content: center;
+    pointer-events: painted;
+    text-decoration: none;
+    color: black;
+     
+
+}
+
+button{
+    background-color: darkgray;
+    border-radius: 10px;
+    width: 2.5cm;
+    height: 30px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 0cap
+}
+
+input{
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+}
+
+div{
+    background-color: black;
+    color: azure;
+    font-family: monospace ;
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+}
+
