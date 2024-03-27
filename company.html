@@ -3,19 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Company Details</title>
-  <link rel="stylesheet" href="">
+  <title>Company registration!</title>
+  <link rel="stylesheet" href="company.css">
   <script src="/js/company.js"></script>
 </head>
 <body>
   <header>
-    <h1>Company Details Page</h1>
+    <h1>Register Company!</h1>
     <nav>
-      <ul>
-        <li><a href="/homepage.html">Home</a></li>
-        <li><a href="/internship.html">Internships</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <a href="/homepage.html">Home</a>
+      <a href="/internship.html">Internships</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
   <main>
@@ -42,10 +40,12 @@
 
     <button type="submit" onclick="submitCompanyForm()">Submit</button>
    </form>
+  </main>
 
-
-    <h2 id="contact">Contact Us</h2>
-    <form action="/contact/submit" method="POST" id="contactform" onsubmit="submitContactForm(event)">
+  <hr>
+  <div>
+  <h2 id="contact">Contact Us</h2>
+  <form action="/contact/submit" method="POST" id="contactform" onsubmit="submitContactForm(event)">
       <label for="name">Name:</label>
       <input type="text" name="name" id="name"><br><br>
       <label for="email">Email:</label>
@@ -54,8 +54,8 @@
       <textarea name="message" id="message"></textarea><br><br>
       <button type="submit">Send</button>
   </form>
+  </div>
   
-  </main>
   <footer>
     <p>&copy; 2024 [Company Name]</p>
   </footer>
